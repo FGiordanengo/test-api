@@ -1,12 +1,13 @@
 ## Etapes pour utiliser le projet
 Cloner le projet
 Faire un composer install
+
 Créer un fichier .env.local avec les identifiants de connexion à la bdd
 
-Commandes à effectuer : 
-php bin/console doctrine:database:create
-php bin/console make:migration
-php bin/console doctrine:migrations:migrate
+Commandes à effectuer :  
+php bin/console doctrine:database:create  
+php bin/console make:migration  
+php bin/console doctrine:migrations:migrate  
 php bin/console doctrine:fixtures:load
 
 Lancer un serveur local : php -S localhost:8000 -t public
