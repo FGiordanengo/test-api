@@ -1,5 +1,5 @@
 ## Etapes pour utiliser le projet
-Cloner le projet
+Cloner le projet  
 Faire un composer install
 
 Créer un fichier .env.local avec les identifiants de connexion à la bdd
