@@ -11,7 +11,7 @@ php bin/console doctrine:migrations:migrate
 php bin/console doctrine:fixtures:load
 
 Lancer un serveur local : php -S localhost:8000 -t public
-
+On peut utiliser Postman pour tester les routes de l'API
 ## Liste des URL, et méthodes de l'API :
 - Ajouter un élève 
 
